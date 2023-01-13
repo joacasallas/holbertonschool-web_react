@@ -24,7 +24,6 @@
 | [index.js](https://github.com/joacasallas/holbertonschool-web_react/blob/master/task_5/dashboard/src/index.js)|
 | [.babelrc](https://github.com/joacasallas/holbertonschool-web_react/blob/master/task_5/dashboard/.babelrc)|
 | [webpack.config.js](https://github.com/joacasallas/holbertonschool-web_react/blob/master/task_5/dashboard/config/webpack.config.js)|
-
 | [App.css](https://github.com/joacasallas/holbertonschool-web_react/blob/master/task_5/dashboard/config/webpack.config.js)|
 | [App.js](https://github.com/joacasallas/holbertonschool-web_react/blob/master/task_5/dashboard/src/App/App.js)|
 | [App.test.js](https://github.com/joacasallas/holbertonschool-web_react/blob/master/task_5/dashboard/src/App/App.test.js)|
@@ -44,11 +43,10 @@
 ## Additional info :construction:
 ### Resources
 
-- React
+- React, Javascript, Webpack
 
 ### Try It On Your Machine :computer:
 ```bash
-git clone git@github.com:joacasallas/holbertonschool-interview.git
-cd 0x00-lockboxes
-./main_0.py
+git clone git@github.com:joacasallas/holbertonschool-web_react
+cd 0x02-react_intro
 ```
