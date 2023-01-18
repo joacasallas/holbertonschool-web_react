@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './logo.jpg';
 import './App.css';
 import { getFooterCopy, getFullYear } from './utils';
@@ -13,6 +14,11 @@ function App() {
       </div>
       <div className="App-body">
         <p>Login to access the full dashboard</p>
+        <label htmlFor="email">Enter your Email</label>
+        <input type="email" id="email" name="email"></input>
+        <label htmlFor="pass">Password</label>
+        <input type="password" id="pass" name="password" required></input>
+        <button>OK</button>
       </div>
       <div className="App-footer">
         <p>
