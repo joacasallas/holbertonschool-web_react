@@ -18,13 +18,20 @@
 }
 
 .App-body {
-  display: flex;
   justify-content: left;
   font-size: calc(7px + 2vmin);
   padding-left: 50px;
   padding-top: 40px;
   min-height: 70vh;
   border-top: #d73953 4px solid;
+}
+
+.App-body input {
+  margin: 5px;
+}
+
+.App-body p {
+
 }
 
 .App-footer {
