@@ -1,0 +1,7 @@
+.App-header {
+  display: flex;
+  color: #d73953;
+  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+}
