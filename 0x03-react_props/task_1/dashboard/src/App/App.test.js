@@ -1,5 +1,6 @@
 import { shallow } from 'enzyme';
 import App from './App';
+import '../setupTests'
 
 describe('testing <App/>', ()=>{
     let wrapper = shallow(<App />);

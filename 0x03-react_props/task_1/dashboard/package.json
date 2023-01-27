@@ -11,14 +11,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "test": "jest",
     "test-watch": "jest --watch",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "eject": "react-scripts eject",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start"
   },
+  
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -50,5 +51,14 @@
     "gh-pages": "^5.0.0",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
+  },
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/src/setupTests.js"
+    ],
+    "moduleNameMapper": {
+      "\\.(css|sass)$": "<rootDir>/__mocks__/styleMock.js",
+      "\\.(jpg|jpeg|png|gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+    } 
   }
 }
