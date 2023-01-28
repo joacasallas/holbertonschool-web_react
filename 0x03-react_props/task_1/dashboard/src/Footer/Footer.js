@@ -4,7 +4,7 @@ import { getFooterCopy, getFullYear } from '../utils/utils';
 
 function Footer() {
   return (
-    <div>
+    <div className="App-footer">
       <p>
         Copyright {getFullYear()} - {getFooterCopy(true)}
       </p>

@@ -12,13 +12,13 @@ function App() {
         <Notifications />
       </div>
       <div className="App">
-        <div className="App-header">
+        <div>
           <Header />
         </div>
-        <div className="App-body">
+        <div>
           <Login />
         </div>
-        <div className="App-footer">
+        <div>
           <Footer />
         </div>
       </div>

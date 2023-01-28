@@ -1,0 +1,17 @@
+.Notifications {
+    border: #d73953 2px dashed;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[data-notification-type="default"] {
+    color: blue;
+}
+
+[data-notification-type="urgent"] {
+    color: red;
+}
+
+[data-notification-type="default"] {
+    color: blue;
+}
