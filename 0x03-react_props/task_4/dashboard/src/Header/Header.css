@@ -1,0 +1,18 @@
+.App {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  color: #d73953;
+  font-size: calc(10px + 2vmin);
+  align-items: center;
+  text-align: center;
+}
