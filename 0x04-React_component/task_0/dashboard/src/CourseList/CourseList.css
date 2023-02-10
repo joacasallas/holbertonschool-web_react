@@ -1,0 +1,22 @@
+.App-body table{
+    border-collapse: collapse;
+    border: lightgray 0.5px solid;
+
+}
+
+.App-body table th {
+    padding: 5px 3px;
+    width: 40rem;
+    text-align: left;
+    font-size: large;
+    border-bottom: lightgray 0.5px solid;
+}
+
+.App-body table td {
+    font-size: large;
+    padding: 0 3px;
+}
+
+#courseList th[colspan="2"] {
+    text-align: center;
+}
